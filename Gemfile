@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "Sinatra"
+gem "Sinatra", "1.4.4"
 gem "Hashie"
-gem "Octokit"
+gem "Octokit" "~> 2.0+"
 gem "AwesomePrint"
 gem "Pry"
 
