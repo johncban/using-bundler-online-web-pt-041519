@@ -4,7 +4,8 @@ gem "Sinatra"
 gem "Hashie"
 gem "Octokit"
 gem "AwesomePrint"
+gem "Pry"
 
-group :development do
-  gem "Pry"
+group :test do
+  gem "rspec"
 end
